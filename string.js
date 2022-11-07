@@ -70,5 +70,17 @@
 
 // different between == vs ===
 
-1 == '1'
-console.log(1 === '1')
+// 1 == '1'
+// console.log(1 === '1')
+
+// basic concept in the hosting
+var myName = 'aliraza'
+
+const guessName = () => {
+  console.log(myName) //undefined
+
+  var myName = 'zaidi'
+  console.log(myName) //zaidi
+}
+console.log(myName)
+guessName()
