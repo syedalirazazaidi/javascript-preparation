@@ -85,12 +85,15 @@
 // console.log(myName)
 // guessName()
 
-var array1 = [4, 6, 8, 9, 10]
-var array2 = [6, 4, 10, 8, 9]
+// var array1 = [4, 6, 8, 9, 10]
+// var array2 = [6, 4, 10, 8, 9]
 
-const newarray = array1.every((ele) => {
-  if (array2.indexOf(ele) > -1) {
-    return (ele = array2[array2.indexOf(ele)])
-  }
-})
-console.log(newarray)
+// const newarray = array1.every((ele) => {
+//   if (array2.indexOf(ele) > -1) {
+//     return (ele = array2[array2.indexOf(ele)])
+//   }
+// })
+// console.log(newarray)
+let arry = [1, 2, 4, 5, 10, 6, 7, 4]
+let newarry = [...new Set(arry)]
+console.log(newarry)
