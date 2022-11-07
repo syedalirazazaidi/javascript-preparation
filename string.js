@@ -60,10 +60,15 @@
 // console.log(arrName.indexOf('aliraza'))
 
 // two different object with same  values are never equal
-let a = {}
-let b = a
-let c = {}
+// let a = {}
+// let b = a
+// let c = {}
 
-console.log(a === c) //false
-console.log('a+b', a === b) //true
-console.log(a === a) //true
+// console.log(a === c) //false
+// console.log('a+b', a === b) //true
+// console.log(a === a) //true
+
+// different between == vs ===
+
+1 == '1'
+console.log(1 === '1')
