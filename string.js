@@ -95,7 +95,39 @@
 // })
 // console.log(newarray)
 console.time('codeStart')
-let arry = [1, 2, 4, 5, 10, 6, 7, 4]
-let newarry = [...new Set(arry)]
+// let arry = [1, 2, 4, 5, 10, 6, 7, 4]
+// let newarry = [...new Set(arry)]
 
-console.timeEnd('codeStart')
+// function factorialize(num) {
+//   if (num < 0) return -1
+//   else if (num == 0) return 1
+//   else {
+//     return num * factorialize(num - 1)
+//   }
+// }
+// console.log(factorialize(9))
+
+// let num = 5
+// for (let i = num; i > 1; ) {
+//   i = i - 1
+//   var fact = num * i
+
+//   //num = 20
+//   console.log(fact)
+// }
+
+// console.timeEnd('codeStart')
+
+// const arr1 = [10, 2, 4, 5]
+// const arr2 = [4, 7, 8]
+// const newarr3 = arr1.concat(...arr2)
+// let newarry = [...new Set(newarr3)]
+// const aar = newarry.sort()
+// console.log(aar)
+const array1 = [1, 2, 2, 1]
+const array2 = [2, 2]
+const vli = array1.filter((val) => {
+  return array2.includes(val)
+})
+const newse = [...new Set(vli)]
+console.log(newse)
