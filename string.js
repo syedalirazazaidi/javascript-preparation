@@ -124,8 +124,8 @@ console.time('codeStart')
 // let newarry = [...new Set(newarr3)]
 // const aar = newarry.sort()
 // console.log(aar)
-const array1 = [1, 2, 2, 1]
-const array2 = [2, 2]
+const array1 = [4, 9, 5]
+const array2 = [9, 4, 9, 8, 4]
 const vli = array1.filter((val) => {
   return array2.includes(val)
 })
