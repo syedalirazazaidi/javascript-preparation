@@ -94,6 +94,8 @@
 //   }
 // })
 // console.log(newarray)
+console.time('codeStart')
 let arry = [1, 2, 4, 5, 10, 6, 7, 4]
 let newarry = [...new Set(arry)]
-console.log(newarry)
+
+console.timeEnd('codeStart')
